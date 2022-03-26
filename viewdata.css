@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Lucida Sans Regular', sans-serif;
+}
+
+body {
+    height: 700px;
+    width: 800px;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1IBaTKVXXXXXDXVXXq6xXFXXXI/Kustom-retro-wallpaper-kopi-3D-stereoscopic-mural-untuk-cafe-restaurant-hotel-latar-belakang-dinding-PVC-wallpaper.jpg_Q90.jpg_.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    width: 1500px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 10px;
+}
+
+th{
+    background-color: rgb(236, 201, 135);
+}
+
+table{
+    border-bottom: 2px solid rgb(245, 153, 49);
+    border-top: 2px solid rgb(245, 153, 49);
+    border-left: 2px solid rgb(245, 153, 49);
+    border-right: 2px solid rgb(245, 153, 49);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}

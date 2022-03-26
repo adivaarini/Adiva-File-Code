@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Penilaian</title>
+    <link rel="stylesheet" type="text/css" href="formpenilaian.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Form Penilaian</h1>
+        <form method="post" action="nilai.php" >
+            <label><b>Nama Cafe:</b></label>
+            <input class="input" type="text" name="cafe"><br>
+            <label><b>Lokasi:</b></label>
+            <input class="input" type="text" name="lokasi"><br>
+            <label><b>Kriteria Nilai Menu:</b></label><br>
+            <select name="menu" id="jenis">
+                <option value="Enak">Enak</option>
+                <option value="Biasa Saja">Biasa Saja</option>
+                <option value="Tidak Enak">Tidak Enak</option>
+            </select> <br><br>
+            <label><b>Kriteria Nilai Kenyaman Tempat:</b></label><br>
+            <select name="tempat" id="jenis">
+                <option value="Nyaman">Nyaman</option>
+                <option value="Biasa Saja">Biasa Saja</option>
+                <option value="Tidak Nyaman">Tidak Nyaman</option>
+            </select> <br><br>
+            <label><b>Kriteria Nilai Pelayanan:</b></label><br>
+            <select name="service" id="jenis">
+                <option value="Baik">Baik</option>
+                <option value="Biasa Saja">Biasa Saja</option>
+                <option value="Buruk">Buruk</option>
+            </select> <br><br>
+            <label><b>Kriteria Nilai Fasilitas:</b></label><br>
+            <select name="fasilitas" id="jenis">
+                <option value="Lengkap">Lengkap</option>
+                <option value="Cukup">Cukup</option>
+                <option value="Tidak Lengkap">Tidak Lengkap</option>
+            </select> <br><br>
+            <labe><b>Testimoni:</b></label><br>
+                <textarea cols="40" rows="8" name="testimoni"></textarea><br><br>
+            <div align="center">
+                <input class="tombol" align="center" type="submit" name="submit" value="SAVE">
+                <input class="tombol" align="center" type="reset" name="reset" value="CANCEL">
+            </div>
+        </form>
+
+    </div>
+    
+</body>
+</html>
